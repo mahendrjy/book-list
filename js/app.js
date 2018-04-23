@@ -99,7 +99,8 @@ document.getElementById('book-list').addEventListener('click',
 		ui.deleteBook(e.target);
 
 		// Show message
-		ui.showAlert('Book Removed!', 'success');
-	e.preventDefault();
+		ui.showAlert('Book Removed!', 'alert-success');
 
-});
+
+		e.preventDefault();
+	});
