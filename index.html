@@ -12,6 +12,53 @@
 </head>
 
 <body class="bg-dark">
+    <!-- Book List -->
+    <div class="container">
+        <div class="row">
+            <div class="col mx-auto">
+                <div class="card card-body text-center mt-3">
+                    <h1 class="heading display-5">Book List</h1>
+                    <!-- Add Book -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 mx-auto">
+                                <div class="card card-body text-center mt-2 bg-dark">
+                                    <h1 class="heading display-5 text-white">Add Book</h1>
+                                    <input type="text" class="form-control mt-3" id="title" placeholder="Title">
+                                    <input type="text" class="form-control mt-3" id="author" placeholder="Author">                    
+                                    <input type="text" class="form-control mt-3" id="isbn" placeholder="ISBN#">
+                                    <button type="button" class="btn btn-info btn-block mt-3" id="button">Add Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- /.container -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    <!-- Books -->
+    <div class="container">
+        <div class="row">
+            <div class="col mx-auto">
+                <div class="card card-body text-center mt-3">
+                    <h1 class="heading display-5">Books</h1>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Author</th>
+                                <th>ISBN</th>
+                            </tr>
+                        </thead>
+                        <tbody id="book-list"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
