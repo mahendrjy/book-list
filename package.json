@@ -1,0 +1,34 @@
+{
+  "name": "book-list",
+  "version": "1.0.0",
+  "description": "Book List",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://jakepintu.github.io/Book-List/"
+  },
+  "keywords": [
+    "Html",
+    "Css",
+    "Responsive",
+    "CSS",
+    "JavaScript Methods",
+    "DOM",
+    "OOP",
+    "Classes",
+    "Book List"
+  ],
+  "author": "Mahendra Choudhary",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
+}
